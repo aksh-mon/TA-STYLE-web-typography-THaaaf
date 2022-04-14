@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;			
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+ q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	
+}
+/*font-family*/
+
+@font-face {
+    font-family: "karla italic";
+    src: url(assets/Karla-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "karla var";
+    src: url(assets/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "karla extra light";
+    src: url(assets/static/Karla-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "sherif italic";
+    src: url(assets/DMSerifDisplay-Italic.ttf);
+}
+
+@font-face {
+    font-family: "sherif var";
+    src: url(assets/DMSerifDisplay-Regular.ttf);
+}
+
+/* custom-styles */
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{font-size: 16px;
+line-height: 1.5;}
+
+/*h1*/
+.hero-headline{
+font-family: "sherif var";
+font-size: 26px;
+position: relative;
+left: 18vh;
+top: 2vh;}
+
+/*nav*/
+.header{display: block;
+width: 100%;
+background-color: white;}
+
+.nav{display: flex;
+justify-content: end;
+position: relative;
+right: 25vh;
+top: -2vh;}
+
+.a1{margin: 0 12px ;
+font-family: "karla var";
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+color: grey;}
+
+.btn1{padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+font-size: 18px;
+font-weight: 400;
+font-family: "karla var";
+text-transform: uppercase;
+background-color: white;
+color: grey;
+position: relative;
+bottom:  5px;}
+
+/*section-1*/
+
+.card{
+width: 100%;
+padding: 8%;
+background-color: rgb(40, 26, 53);}
+
+.horizon-rule-on-top{width: 10%;
+position: relative;
+right: 95vh;
+top: -2vh;}
+
+.hero-head{font-size: 60px;
+    color: white;
+text-transform: capitalize;
+font-family: "sherif var";}
+
+.hero-para{font-size: 16px;
+    width: 38%;
+    color: white;
+    font-weight: 400;
+text-transform: capitalize;
+font-family: "karla extra light";}
+
+
+.img-01{width: 35%;
+    float: right;
+    position: relative;
+    bottom: 62vh;
+    right: 26vh;}
+    
+
+.btn2{
+    padding: 6px 15px;
+background-color: rgb(40, 26, 53);
+color: white;
+border: 1px solid white;
+border-radius: 3px;
+font-size: 16px;
+text-transform: uppercase;
+font-family: "karla var";
+position: relative;
+top: 20px;}
+
+/*section-2*/
+
+.section-box-1{display: flex;
+    flex-direction: row;
+position: relative;
+left:20vh;
+top: 25vh;}
+
+.card-2{
+    position: relative;
+    left: 12vh; 
+ top: 15vh;}
+
+.img-02{width: 60%;}
+
+.hero-mid{font-size: 44px;
+font-family: "sherif var";}
+
+.para-mid{
+    font-size: 15px;
+    font-family: "karla extra light";
+position: relative;
+top: 5px;
+font-weight: 600;}
+
+.btn3{padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+font-size: 18px;
+font-weight: 400;
+font-family: "karla var";
+text-transform: uppercase;
+background-color: white;
+color: grey;
+position: relative;
+top: 20px;}
+
+/*Section-3*/
+
+.card-3{position: relative;
+top: 40vh;
+left: 20vh;}
+
+.horizon-rule-on-mid{width: 10%;
+    position: relative;
+    right:  57vh;
+    bottom: 1vh;}
+
+.compare{display: flex;
+justify-content: space-between;
+width: 85%;}
+
+.seg1{position: relative;
+top: 25px;
+left: 5px;}
+
+
+.logset{width: 8%;
+    border-radius: 50%;
+    background-color: skyblue;
+margin:  10px 0;}
+    
+.hero-mid-dawn{font-family: "sherif var";
+font-size: 18px;
+margin: 10px 0;}
+
+.para-mid-dawn{font-family: "karla extra light";
+font-weight: bold;
+width: 75%;
+font-size: 15px;}
+
+/*section-4*/
+
+.card-4{display: block;
+width: 70%; 
+background-color: rgb(40, 26, 53);
+padding: 2%;
+position: relative;
+top:50vh;
+left: 20vh;}
+
+.hero-head-long{font-size: 50px;
+    color: white;
+    font-family: "sherif var";}
+
+  .btn4{padding: 8px 18px;
+    background-color: rgb(40, 26, 53);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "karla var";
+    position: relative;
+    top: -90px;
+left: 80%;}  
+
+/* section-5 */
+.card-5{display: inline-block;
+    position: relative;
+top: 60vh;
+left: 2vh;}
+
+.dream-log{width: 5%;
+position: relative;
+left: 160vh;
+bottom:  3vh;
+margin: 0 10px;}
+
+.horizon-rule-on-down{width: 175%;
+position: relative;
+bottom:  5vh;
+left: 18vh;}
+
+.a1x{margin: 0 12px ;
+    font-family: "karla var";
+    font-size: 16px;
+    font-weight: 400;
+     color: grey;
+    position: relative;
+left: 85%;
+text-transform: capitalize;
+bottom: 4vh;}
+    
+/*Footer*/
+.footer{position: relative;
+top: 58vh;
+display: block;
+width: 100%;
+padding: 1%;
+color: grey;
+background-color: rgb(40, 26, 53);
+font-family: "karla var";
+text-align: center;}
